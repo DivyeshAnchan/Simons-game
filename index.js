@@ -38,10 +38,10 @@ function checkanswer(answer) {
       }, 1000)
     }
   } else {
-    userchosencolor = []
+    userClickedPattern = []
     gamepattern = []
 
-    let mytime = setTimeout(() => {
+    setTimeout(() => {
       $('body').addClass('game-over')
       var audio = new Audio('sounds/wrong.mp3')
       audio.play()
